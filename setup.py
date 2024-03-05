@@ -13,14 +13,14 @@
 # write to the Free Software Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA 
 
 from setuptools import setup, find_packages
-import haruspex
+import witchfinder
 
 with open("README.md") as f_readme:
     long_desc = f_readme.read()
 
 setup(
     name = "witchfinder",
-    version = haruspex.__version__,
+    version = witchfinder.__version__,
     description = "an experiment in modern file carving",
     long_description = long_desc,
     long_description_content_type='text/markdown',
